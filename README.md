@@ -37,17 +37,14 @@ subgraph cluster_lower
   S[Contacts]
 end
 
-B & F --> A;
+B --> A;
+F --> A;
 
 C & D & E --> B;
-G & H --> F;
-I & J --> F;
+G & H & I & J --> F;
 L & M & N --> K;
-P & Q --> O;
-R & S --> O;
-K & O --> A
+P & Q & R & S --> O;
 
- 
 
 ```
 
