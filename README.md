@@ -2,37 +2,41 @@
 
 ```mermaid
 
-graph LR;
+graph TB;
 
-A[Home Page] --> B[Header];
-A --> C[Hero Block];
-A --> D[Trends & Recommendations];
-A --> E[New Projects Overview];
+subgraph cluster_Header
+  A[Logo]
+  B[Navigation Menu]
+  C[Search Bar]
+end
 
-F[Explore Page] --> G[Filters];
-F --> H[Categories];
-F --> I[Project Cards];
-F --> J[Sidebar];
+subgraph cluster_MainContent
+  D[Hero Section]
+  E[Featured Projects]
+  F[Explore Categories]
+end
 
-K[User Profile] --> L[User Information];
-K --> M[My Projects];
-K --> N[Liked Projects];
-K --> O[Statistics];
+subgraph cluster_UserProfile
+  G[User Avatar]
+  H[User Name]
+  I[User Stats]
+end
 
-P[Project Page] --> Q[Title & Description];
-P --> R[Media Gallery];
-P --> S[Comments];
-P --> T[Action Buttons];
+subgraph cluster_Footer
+  J[Footer Links]
+  K[Social Media Links]
+end
 
-U[Footer] --> V[Navigation Links];
-U --> W[Social Media Links];
-U --> X[Company Information];
-
-style A fill:#86C7F3, stroke:#333, stroke-width:2px;
-style F fill:#FFD700, stroke:#333, stroke-width:2px;
-style K fill:#90EE90, stroke:#333, stroke-width:2px;
-style P fill:#FFA07A, stroke:#333, stroke-width:2px;
-style U fill:#D3D3D3, stroke:#333, stroke-width:2px;
+A --> B;
+B --> C;
+C --> D;
+D --> E;
+E --> F;
+D --> G;
+G --> H;
+G --> I;
+E --> J;
+J --> K;
 
 
 
