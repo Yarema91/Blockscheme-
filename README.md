@@ -1,16 +1,21 @@
 # Behance-Like Website Block Scheme
 
 
+@startuml
 [Goldilocks] --> B[Porridge];
 B --> C[Too hot];
-B - -> D[Too cold];
-B--> E[Just right];
-﻿﻿﻿-> F[Chairs];
-﻿﻿﻿-> G[Too big];
-F--> H[Still too big];
-F-> I[Just right];
-I…> JBeds];
-3 --> K[Too hard];
+B --> D[Too cold];
+B --> E[Just right];
+
+[Goldilocks] --> F[Chairs];
+F --> G[Too big];
+F --> H[Still too big];
+F --> I[Just right];
+
+[Just right] --> J[Beds];
+J --> K[Too hard];
 J --> L[Too soft];
-3 --> M[Just right];
+J --> M[Just right];
+
 M --> N[Bears];
+@enduml
