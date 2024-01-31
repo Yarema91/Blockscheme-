@@ -17,7 +17,7 @@ subgraph cluster_upper
   E[Popular Tags]
 end
 
-subgraph cluster_middle
+subgraph cluster_left
   F[Profile]
     G[My Projects]
       GA[Project 1]
@@ -26,12 +26,15 @@ subgraph cluster_middle
     H[Liked Projects]
       HA[Liked Project 1]
       HB[Liked Project 2]
-    I[Following]
-      IA[User 1]
-      IB[User 2]
-    J[Followers]
-      JA[User 3]
-      JB[User 4]
+end
+
+subgraph cluster_right
+  I[Following]
+    IA[User 1]
+    IB[User 2]
+  J[Followers]
+    JA[User 3]
+    JB[User 4]
 end
 
 subgraph cluster_lower
@@ -60,12 +63,16 @@ B --> A;
 F --> A;
 
 C & D & E --> B;
-G & H & I & J --> F;
+G & H --> F;
+I & J --> F;
 L & M & N --> K;
 P & Q & R & S --> O;
 K & O --> A;
 
 
+
+
+ 
 
 ```
 
