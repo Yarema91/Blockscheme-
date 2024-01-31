@@ -3,28 +3,18 @@
 ```mermaid
 
 graph TD
-  A[Главная страница] -->|Навигация| B[О нас]
-  A -->|Навигация| C[Услуги]
-  A -->|Навигация| D[Контакты]
-  A -->|Навигация| E[Личный кабинет]
+  A[Home Page] -->|Logo, Navigation Menu, Content| B[About Us Page]
+  A -->|Logo, Navigation Menu, Content| C[Services Page]
+  A -->|Logo, Navigation Menu, Content| D[Contact Page]
+  A -->|Logo, Navigation Menu, Content| E[User Account]
+  A -->|Logo, Navigation Menu, Content| F[Footer]
 
-  B -->|Информация| F[Страница "О нас"]
-  C -->|Список услуг| G[Страница "Услуги"]
-  D -->|Контактная информация| H[Страница "Контакты"]
-  E -->|Логин, Профиль, История операций| I[Личный кабинет]
+  B -->|Company Information, Mission and History| G[About Us Details]
+  C -->|Investment, Credit Services, Financial Consultation| H[Services Details]
+  D -->|Contact Form, Contact Information| I[Contact Details]
+  E -->|Authentication, User Profile, Transaction History| J[User Account Details]
+  F -->|Copyright Information, Social Media Links| K[Footer Details]
 
-  A -->|Футер| J[Футер]
-
-  style A fill:#80b3ff
-  style B fill:#80b3ff
-  style C fill:#80b3ff
-  style D fill:#80b3ff
-  style E fill:#80b3ff
-  style F fill:#b3d9ff
-  style G fill:#b3d9ff
-  style H fill:#b3d9ff
-  style I fill:#b3d9ff
-  style J fill:#ccf2ff
 
 ```
 
