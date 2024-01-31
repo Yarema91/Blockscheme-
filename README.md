@@ -29,11 +29,15 @@ Q[Assets]
 R[Terms of Use & Privacy]
 S[Contacts]
 
+
+
 B & F & K --> A;
 C & D & E --> B;
-G & H & I & J --> F;
+G & H --> F;
+I & J --> F;
 L & M & N --> K;
-P & Q & R & S --> O;
+P & Q --> O;
+R & S --> O;
 
 ```
 
