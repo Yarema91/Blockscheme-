@@ -1,65 +1,70 @@
-# Behance-Like Website Block Scheme
+# Opus Website Block Scheme
 
 ```mermaid
+
 graph TD;
 
-subgraph cluster_Home
-  A[Home]
-  B[Discover]
-  C[Following]
+subgraph cluster_Website
+  A[Website]
+  B[Navigation]
+  C[Main Content]
+  D[Footer]
 end
 
-subgraph cluster_Projects
-  D[Projects]
-  E[Works in Progress]
-  F[Collections]
-  G[Curated Galleries]
-end
-
-subgraph cluster_Create
-  H[Start a Project]
-  I[Upload]
+subgraph cluster_Discover
+  E[Discover]
+  F[Categories]
+  G[Featured Projects]
+  H[Popular Tags]
 end
 
 subgraph cluster_Profile
-  J[Profile]
-  K[My Projects]
-  L[Liked Projects]
-  M[Following]
-  N[Followers]
+  I[Profile]
+  J[My Projects]
+  K[Liked Projects]
+  L[Following]
+  M[Followers]
 end
 
-subgraph cluster_Jobs
-  O[Jobs]
-  P[Hiring]
+subgraph cluster_Projects
+  N[Projects]
+  O[Works in Progress]
+  P[Collections]
+  Q[Curated Galleries]
 end
 
-subgraph cluster_Notifications
-  Q[Notifications]
+subgraph cluster_OtherPages
+  R[Jobs]
+  S[Search]
+  T[Assets]
+  U[Terms of Use & Privacy]
+  V[Contacts]
 end
 
-subgraph cluster_Search
-  R[Search]
-end
+A -->|Contains| B;
+A -->|Contains| C;
+A -->|Contains| D;
+B -->|Leads to| E;
+B -->|Leads to| I;
+B -->|Leads to| N;
+B -->|Leads to| R;
+C -->|Includes| F;
+C -->|Includes| G;
+C -->|Includes| J;
+C -->|Includes| O;
+C -->|Includes| P;
+C -->|Includes| S;
+D -->|Includes| T;
+D -->|Includes| U;
+D -->|Includes| V;
+I -->|Sub-navigation| K;
+I -->|Sub-navigation| L;
+I -->|Sub-navigation| M;
+N -->|Sub-navigation| O;
+N -->|Sub-navigation| P;
+N -->|Sub-navigation| Q;
 
-A -->|Navigation| B;
-A -->|Navigation| C;
-B -->|Sub-navigation| G;
-B -->|Sub-navigation| D;
-D -->|Sub-navigation| E;
-D -->|Sub-navigation| F;
-C -->|Sub-navigation| G;
-B -->|Sub-navigation| R;
-A -->|Navigation| H;
-H -->|Sub-navigation| I;
-A -->|Navigation| J;
-J -->|Sub-navigation| K;
-J -->|Sub-navigation| L;
-J -->|Sub-navigation| M;
-J -->|Sub-navigation| N;
-A -->|Navigation| O;
-O -->|Sub-navigation| P;
-A -->|Navigation| Q;
+
 
 
 ```
