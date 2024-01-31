@@ -1,6 +1,7 @@
 # Opus Website Block Scheme
 
 ```mermaid
+graph TD
 
  style A fill:#f9f9f9,stroke:#2c3e50,stroke-width:2px;
   style B fill:#ecf0f1,stroke:#3498db,stroke-width:2px;
@@ -16,19 +17,19 @@
   style L fill:#ffffff,stroke:#2c3e50,stroke-width:2px;
   style M fill:#ffffff,stroke:#2c3e50,stroke-width:2px;
 
-graph TD
-  A[Home Page] -->|Logo, Navigation Menu, Content| B[About Us Page]
-  A -->|Logo, Navigation Menu, Content| C[Services Page]
-  A -->|Logo, Navigation Menu, Content| D[Contact Page]
-  A -->|Logo, Navigation Menu, Content| E[User Account]
-  A -->|Logo, Navigation Menu, Content| F[Footer]
+A[Opus Website] -->|Logo, Navigation Menu| B[Home Page]
+  A -->|Logo, Navigation Menu| C[About Us Page]
+  A -->|Logo, Navigation Menu| D[Services Page]
+  A -->|Logo, Navigation Menu| E[Contact Page]
+  A -->|Logo, Navigation Menu| F[User Account]
+  A -->|Logo, Navigation Menu| G[Footer]
 
-  B -->|Company Information, Mission and History| G[About Us Details]
-  C -->|Investment, Credit Services, Financial Consultation| H[Services Details]
-  D -->|Contact Form, Contact Information| I[Contact Details]
-  E -->|Authentication, User Profile, Transaction History| J[User Account Details]
-  F -->|Copyright Information, Social Media Links| K[Footer Details]
-
+  B -->|Content| H[Home Content]
+  C -->|Company Information, Mission and History| I[About Us Details]
+  D -->|Investment, Credit Services, Financial Consultation| J[Services Details]
+  E -->|Contact Form, Contact Information| K[Contact Details]
+  F -->|Authentication, User Profile, Transaction History| L[User Account Details]
+  G -->|Copyright Information, Social Media Links| M[Footer Details]
 
 ```
 
