@@ -2,7 +2,7 @@
 
 ```mermaid
 
-graph TD;
+graph LR;
 
 A[Home Page] --> B[Header];
 A --> C[Hero Block];
