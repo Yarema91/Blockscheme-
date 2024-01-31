@@ -9,6 +9,14 @@ style F fill:#82E0AA, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5, sha
 style K fill:#F08080, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5, shape:rect;
 style O fill:#D3D3D3, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5, shape:rect;
 
+graph TB;
+
+style A fill:#5DADE2, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5, shape:rect;
+style B fill:#FFD700, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5, shape:rect;
+style F fill:#82E0AA, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5, shape:rect;
+style K fill:#F08080, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5, shape:rect;
+style O fill:#D3D3D3, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5, shape:rect;
+
 subgraph cluster_upper
   A[Website]
   B[Discover]
@@ -38,6 +46,7 @@ subgraph cluster_lower
 end
 
 B & F --> A;
+K & O --> A;
 C & D & E --> B;
 G & H --> F;
 I & J --> F;
@@ -45,11 +54,7 @@ L & M & N --> K;
 P & Q --> O;
 R & S --> O;
 
-K & O --> A;
+ 
 
-P & Q --> O;
-R & S --> O;
-
-K & O -->  A;
 ```
 
