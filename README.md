@@ -2,41 +2,36 @@
 
 ```mermaid
 
-flowchart TD
-
-A[Goldilocks] --> B[Porridge];
-
-B - -> C[Too hot];
-B - -> D[Too cold];
-
-B --› E[Just right];
-
-E …> F［Chairs］；
-
-F --> G[Too big];
-
-F --> H[Still too big];
-
-F +-> IJust right];
-
-I -> J［Beds］；
-
-3 --> K[Too hard];
-
-
-] -> L[Too soft];
-
-
-3 --> M[Just right];
-
-
-M --> N［Bears］；
-
-```
-```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+
+A[Home Page] --> B[Header];
+A --> C[Hero Block];
+A --> D[Trends & Recommendations];
+A --> E[New Projects Overview];
+
+A --> F[Explore Page];
+F --> G[Filters];
+F --> H[Categories];
+F --> I[Project Cards];
+F --> J[Sidebar];
+
+A --> K[User Profile];
+K --> L[User Information];
+K --> M[My Projects];
+K --> N[Liked Projects];
+K --> O[Statistics];
+
+A --> P[Project Page];
+P --> Q[Title & Description];
+P --> R[Media Gallery];
+P --> S[Comments];
+P --> T[Action Buttons];
+
+A --> U[Footer];
+U --> V[Navigation Links];
+U --> W[Social Media Links];
+U --> X[Company Information];
+
+
 ```
+
