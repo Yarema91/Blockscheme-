@@ -37,7 +37,6 @@ L & M & N --> K;
 P & Q --> O;
 R & S --> O;
 
-K & O --> A;
-
+K -->|Expands Downwards| O --> A;
 ```
 
