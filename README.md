@@ -1,7 +1,7 @@
 # Opus Website Block Scheme
 
 ```mermaid
-graph TB;
+graph TD;
 
 style A fill:#86C7F3, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5;
 style B fill:#FFD700, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5;
@@ -29,8 +29,6 @@ Q[Assets]
 R[Terms of Use & Privacy]
 S[Contacts]
 
-
-
 B & F --> A;
 C & D & E --> B;
 G & H --> F;
@@ -39,10 +37,7 @@ L & M & N --> K;
 P & Q --> O;
 R & S --> O;
 
-
-graph TD;
-
-K & O --> A
+K & O --> A;
 
 ```
 
