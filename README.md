@@ -1,7 +1,7 @@
 # Opus Website Block Scheme
 
 ```mermaid
-flowchart TD;
+flowchart BT ;
 
 style A fill:#86C7F3, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5;
 style B fill:#FFD700, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5;
@@ -37,6 +37,6 @@ L & M & N --> K;
 P & Q --> O;
 R & S --> O;
 
-K -->|Expands Downwards| O --> A;
+K --> --> A;
 ```
 
