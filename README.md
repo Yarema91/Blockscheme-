@@ -31,7 +31,7 @@ S[Contacts]
 
 
 
-B & F & K --> A;
+B & F & K & O --> A;
 C & D & E --> B;
 G & H --> F;
 I & J --> F;
