@@ -2,70 +2,66 @@
 
 ```mermaid
 
-graph TD;
+graph TB;
 
-subgraph cluster_Website
+style A fill:#86C7F3, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5;
+style B fill:#FFD700, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5;
+style F fill:#90EE90, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5;
+style K fill:#FFA07A, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5;
+style O fill:#D3D3D3, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5;
+
+subgraph cluster_CentralWebsite
   A[Website]
-  B[Navigation]
-  C[Main Content]
-  D[Footer]
 end
 
 subgraph cluster_Discover
-  E[Discover]
-  F[Categories]
-  G[Featured Projects]
-  H[Popular Tags]
+  B[Discover]
+  C[Categories]
+  D[Featured Projects]
+  E[Popular Tags]
 end
 
 subgraph cluster_Profile
-  I[Profile]
-  J[My Projects]
-  K[Liked Projects]
-  L[Following]
-  M[Followers]
+  F[Profile]
+  G[My Projects]
+  H[Liked Projects]
+  I[Following]
+  J[Followers]
 end
 
 subgraph cluster_Projects
-  N[Projects]
-  O[Works in Progress]
-  P[Collections]
-  Q[Curated Galleries]
+  K[Projects]
+  L[Works in Progress]
+  M[Collections]
+  N[Curated Galleries]
 end
 
 subgraph cluster_OtherPages
-  R[Jobs]
-  S[Search]
-  T[Assets]
-  U[Terms of Use & Privacy]
-  V[Contacts]
+  O[Jobs]
+  P[Search]
+  Q[Assets]
+  R[Terms of Use & Privacy]
+  S[Contacts]
 end
 
-A -->|Contains| B;
-A -->|Contains| C;
-A -->|Contains| D;
-B -->|Leads to| E;
-B -->|Leads to| I;
-B -->|Leads to| N;
-B -->|Leads to| R;
-C -->|Includes| F;
-C -->|Includes| G;
-C -->|Includes| J;
-C -->|Includes| O;
-C -->|Includes| P;
-C -->|Includes| S;
-D -->|Includes| T;
-D -->|Includes| U;
-D -->|Includes| V;
-I -->|Sub-navigation| K;
-I -->|Sub-navigation| L;
-I -->|Sub-navigation| M;
-N -->|Sub-navigation| O;
-N -->|Sub-navigation| P;
-N -->|Sub-navigation| Q;
-
-
-
+A -->|Leads to| B;
+A -->|Leads to| F;
+A -->|Leads to| K;
+A -->|Leads to| O;
+B -->|Branch| C;
+B -->|Branch| D;
+B -->|Branch| E;
+F -->|Branch| G;
+F -->|Branch| H;
+F -->|Branch| I;
+F -->|Branch| J;
+K -->|Branch| L;
+K -->|Branch| M;
+K -->|Branch| N;
+O -->|Branch| P;
+O -->|Branch| Q;
+O -->|Branch| R;
+O -->|Branch| S;
 
 ```
 
