@@ -31,13 +31,18 @@ S[Contacts]
 
 
 
-B & F & K & O --> A;
+B & F --> A;
 C & D & E --> B;
 G & H --> F;
 I & J --> F;
 L & M & N --> K;
 P & Q --> O;
 R & S --> O;
+
+
+graph TD;
+
+K & O --> A
 
 ```
 
