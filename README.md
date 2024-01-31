@@ -4,39 +4,38 @@
 
 graph TB;
 
-subgraph cluster_Header
-  A[Logo]
-  B[Navigation Menu]
-  C[Search Bar]
+subgraph cluster_Sun
+  A[Behance Logo]
 end
 
-subgraph cluster_MainContent
-  D[Hero Section]
-  E[Featured Projects]
-  F[Explore Categories]
+subgraph cluster_Planets
+  B[Discover]
+  C[Featured]
+  D[Projects]
+  E[Creative Fields]
+  F[Jobs]
 end
 
-subgraph cluster_UserProfile
-  G[User Avatar]
-  H[User Name]
-  I[User Stats]
+subgraph cluster_Moons
+  G[Projects Category 1]
+  H[Projects Category 2]
+  I[Projects Category 3]
+  J[Projects Category 4]
+  K[Projects Category 5]
 end
 
-subgraph cluster_Footer
-  J[Footer Links]
-  K[Social Media Links]
-end
+A -->|Sunlight| B;
+A -->|Sunlight| C;
+A -->|Sunlight| D;
+A -->|Sunlight| E;
+A -->|Sunlight| F;
 
-A --> B;
-B --> C;
-C --> D;
-D --> E;
-E --> F;
-D --> G;
-G --> H;
-G --> I;
-E --> J;
-J --> K;
+B --> G;
+B --> H;
+C --> I;
+D --> J;
+D --> K;
+end
 
 
 
