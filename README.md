@@ -12,9 +12,20 @@ style E fill:#D3D3D3, stroke:#333, stroke-width:2px, stroke-dasharray: 5, 5, sha
 subgraph cluster_upper
   A[Behance Website]
   B[Discover]
+    BA[Featured Projects]
+      BAA[Project 1]
+      BAB[Project 2]
+    BB[Popular Tags]
   C[Categories]
-  D[Featured Projects]
-  E[Popular Tags]
+    CA[Category 1]
+    CB[Category 2]
+  D[Jobs]
+    DA[Search]
+      DAA[Job 1]
+      DAB[Job 2]
+    DB[Assets]
+      DBA[Asset A]
+      DBB[Asset B]
 end
 
 subgraph cluster_middle
@@ -57,7 +68,6 @@ C & D & E --> B;
 G & H --> F;
 IA & IB & IC --> I;
 JA & JB & JC & JD --> J;
-
 
 
 ```
