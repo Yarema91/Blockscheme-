@@ -19,22 +19,41 @@ end
 
 subgraph cluster_middle
   F[Profile]
-  G[My Projects]
-  H[Liked Projects]
-  I[Following]
-  J[Followers]
+    G[My Projects]
+      GA[Project 1]
+      GB[Project 2]
+      GC[Project 3]
+    H[Liked Projects]
+      HA[Liked Project 1]
+      HB[Liked Project 2]
+    I[Following]
+      IA[User 1]
+      IB[User 2]
+    J[Followers]
+      JA[User 3]
+      JB[User 4]
 end
 
 subgraph cluster_lower
   K[Projects]
-  L[Works in Progress]
-  M[Collections]
-  N[Curated Galleries]
+    L[Works in Progress]
+      LA[Project A]
+      LB[Project B]
+    M[Collections]
+      MA[Collection X]
+      MB[Collection Y]
+    N[Curated Galleries]
+      NA[Gallery 1]
+      NB[Gallery 2]
   O[Jobs]
-  P[Search]
-  Q[Assets]
-  R[Terms of Use & Privacy]
-  S[Contacts]
+    P[Search]
+      PA[Job 1]
+      PB[Job 2]
+    Q[Assets]
+      QA[Asset A]
+      QB[Asset B]
+    R[Terms of Use & Privacy]
+    S[Contacts]
 end
 
 B --> A;
@@ -44,7 +63,8 @@ C & D & E --> B;
 G & H & I & J --> F;
 L & M & N --> K;
 P & Q & R & S --> O;
-K & O --> A
+K & O --> A;
+
 
 
 ```
