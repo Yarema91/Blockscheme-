@@ -32,6 +32,12 @@ U --> V[Navigation Links];
 U --> W[Social Media Links];
 U --> X[Company Information];
 
+style A fill:#86C7F3, stroke:#333, stroke-width:2px;
+style F fill:#FFD700, stroke:#333, stroke-width:2px;
+style K fill:#90EE90, stroke:#333, stroke-width:2px;
+style P fill:#FFA07A, stroke:#333, stroke-width:2px;
+style U fill:#D3D3D3, stroke:#333, stroke-width:2px;
+
 
 ```
 
