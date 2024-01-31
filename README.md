@@ -1,40 +1,66 @@
 # Behance-Like Website Block Scheme
 
 ```mermaid
+graph TD;
 
-graph TB;
-
-subgraph cluster_Sun
-  A[Behance Logo]
-end
-
-subgraph cluster_Planets
+subgraph cluster_Home
+  A[Home]
   B[Discover]
-  C[Featured]
+  C[Following]
+end
+
+subgraph cluster_Projects
   D[Projects]
-  E[Creative Fields]
-  F[Jobs]
+  E[Works in Progress]
+  F[Collections]
+  G[Curated Galleries]
 end
 
-subgraph cluster_Moons
-  G[Projects Category 1]
-  H[Projects Category 2]
-  I[Projects Category 3]
-  J[Projects Category 4]
-  K[Projects Category 5]
+subgraph cluster_Create
+  H[Start a Project]
+  I[Upload]
 end
 
-A -->|Sunlight| B;
-A -->|Sunlight| C;
-A -->|Sunlight| D;
-A -->|Sunlight| E;
-A -->|Sunlight| F;
+subgraph cluster_Profile
+  J[Profile]
+  K[My Projects]
+  L[Liked Projects]
+  M[Following]
+  N[Followers]
+end
 
-B --> G;
-B --> H;
-C --> I;
-D --> J;
-D --> K;
+subgraph cluster_Jobs
+  O[Jobs]
+  P[Hiring]
+end
+
+subgraph cluster_Notifications
+  Q[Notifications]
+end
+
+subgraph cluster_Search
+  R[Search]
+end
+
+A -->|Navigation| B;
+A -->|Navigation| C;
+B -->|Sub-navigation| G;
+B -->|Sub-navigation| D;
+D -->|Sub-navigation| E;
+D -->|Sub-navigation| F;
+C -->|Sub-navigation| G;
+B -->|Sub-navigation| R;
+A -->|Navigation| H;
+H -->|Sub-navigation| I;
+A -->|Navigation| J;
+J -->|Sub-navigation| K;
+J -->|Sub-navigation| L;
+J -->|Sub-navigation| M;
+J -->|Sub-navigation| N;
+A -->|Navigation| O;
+O -->|Sub-navigation| P;
+A -->|Navigation| Q;
+
 
 ```
 
