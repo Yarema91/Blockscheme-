@@ -52,6 +52,7 @@ displayMode: compact
 ---
 gantt
   title Strategy Art residence
+   %% This is a comment
   dateFormat YYYY
   section 1 Manifest
     Define the core principles and goals of the Art Residence: done, 2022-01-01, 14d
@@ -65,7 +66,7 @@ gantt
     Web site:  site, 2024-02-01, 12w
     Blogging: crit, active, 2024-02-01, 24w
     Events and festivals: 2022-10-01, 2d
-    Guests: 2022-06-01, 5d
+    Guests: milestone,2022-06-01, 5d
     Presentation: 2024-06-07, 1w
    section 4 Administration Liaison and Funding
      Building Team: team, 2024-01-01,2w
