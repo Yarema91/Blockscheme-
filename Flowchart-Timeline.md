@@ -1,6 +1,5 @@
 ```mermaid
 gantt
-gantt
   title Strategy for Art Residence Development
 
   dateFormat YYYY
