@@ -47,6 +47,9 @@ gantt
 
 
 ```mermaid
+---
+displayMode: compact
+---
 gantt
   title Strategy Art residence
   dateFormat YYYY
