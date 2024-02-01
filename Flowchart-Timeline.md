@@ -9,5 +9,4 @@ gantt
     Task_in_Another :2014-01-12, 12d,  yellow
     another_task :24d,  blue
 
-
 ```
