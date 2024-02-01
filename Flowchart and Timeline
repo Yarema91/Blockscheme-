@@ -1,0 +1,7 @@
+```mermaid
+class diagram
+    class Animal:::styleClass {
+        -int sizeInFeet
+        -canEat()
+    }
+```
