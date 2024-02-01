@@ -7,6 +7,6 @@ gantt
     Another_task :after A_task, 20d
   section Another
     Task_in_Another :2014-01-12, 12d
-    another_task :24d, blue
+    another_task :24d
 
 ```
