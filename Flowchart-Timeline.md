@@ -44,6 +44,7 @@ gantt
       Establish_Partnerships :2028, 6mo
 ```
 # 2
+
 ```mermaid
 gantt
   title Strategy for Art Residence Development
