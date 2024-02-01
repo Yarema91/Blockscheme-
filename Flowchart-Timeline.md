@@ -1,12 +1,13 @@
 ```mermaid
 gantt
-  title A Gantt Diagram with Array
+  title Розвиток Арт-Резиденції (2022-2027)
   dateFormat YYYY-MM-DD
-  section Section
-    A_task :a1, 2014-01-01, 5d
-    Another_task :after A_task, 7d
-    Task_3 :after Another_task, 3d
-    Task_4 :after Task_3, 6d
-    Task_5 :after Task_4, 4d
+  section Стан
+    Аналіз_ситуації           :2022-01-01, 30d
+    Оргструктура             :2022-02-01, 30d
+
+  section Стратегічні_цілі
+    Розширення_мистецького_асортимент
+
 
 ```
