@@ -42,8 +42,9 @@ gantt
     PubOrg :2028, 1yr
       Promote_Art_Residence :2028, 6mo
       Establish_Partnerships :2028, 6mo
-
-
+```
+# 2
+```mermaid
 
 graph TB
   subgraph Manifest
