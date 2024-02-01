@@ -50,9 +50,9 @@ gantt
   title Project Schedule
   dateFormat YYYY-MM-DD
   section Phase 1
-    Task 1: 2022-01-01, 30d
-    Task 2: 2022-02-01, 20d
+    Manifest: 2022-01-01, 30d
+    Home Restoration: 2022-02-01, 20d
   section Phase 2
-    Task 3: 2022-03-01, 25d
-    Task 4: 2022-04-01, 15d
+    Communication :active,  des2,2022-06-01, 1yr
+    Administration Liaison and Funding: 2022-04-01, 15d
 ```
