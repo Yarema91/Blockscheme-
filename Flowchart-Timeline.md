@@ -48,7 +48,7 @@ gantt
 ```mermaid
 gantt
   title Project Schedule
-  dateFormat YYYY-MM-DD
+  dateFormat YYYY
   section Phase 1
     Manifest: 2022-01-01, 30d
     Home Restoration: 2022-02-01, 20d
