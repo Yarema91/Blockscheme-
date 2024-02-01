@@ -43,17 +43,26 @@ gantt
       Promote_Art_Residence :2028, 6mo
       Establish_Partnerships :2028, 6mo
 ```
-# 2  ![Online flowchart](https://mermaid.live/edit#pako:eNp1Uktr4zAQ_iuDzikkTjYtvnXb7uMQKC20FHxRrbF3wJKMNM4SSv97R1IckkODD2H06XtpPlTrDapa9doxNw6AiQeEZw6asT_AbWAIGMmgazGdG5n_8sFqhjf5pVHElsk72GlHHcZMA3CPHTkE_ofQ-oAwBnItjQNG0M5A7_UQwXcZkFSeZpW6WlbV1XIl3wJWG1Po4C6R7PUwYazhHLJeHiE7ijH5iCweLTq-xG3_F9gLZVTnQ9bW5wnnG-tz5jnfH28x2WQv5cig0N2GoF2P4AcjGdFSlIQ1HIm2mejmKP3XdUFHDlPLk6QxuMfBj8kqxNGf_G5K9B8X6nfe2slRe5J-xXeIxFi05E5VrlVZ7Ofg-55cX18cVpt8-LAXyfIO6cFIap1LXS0LsHT6W9rmU98lTLEFj1KasGQ7s4gArsVBSfutcbVQFmWDyMjifaRJo-QlLDaqlr8GOz0N3KjGfQpUT-yfD65VtfSGCzWNaQXvSfdB23mIhuRVdmWX80p_fgG_9uSm)
+### 2  ![Online flowchart](https://mermaid.live/edit#pako:eNp1Uktr4zAQ_iuDzikkTjYtvnXb7uMQKC20FHxRrbF3wJKMNM4SSv97R1IckkODD2H06XtpPlTrDapa9doxNw6AiQeEZw6asT_AbWAIGMmgazGdG5n_8sFqhjf5pVHElsk72GlHHcZMA3CPHTkE_ofQ-oAwBnItjQNG0M5A7_UQwXcZkFSeZpW6WlbV1XIl3wJWG1Po4C6R7PUwYazhHLJeHiE7ijH5iCweLTq-xG3_F9gLZVTnQ9bW5wnnG-tz5jnfH28x2WQv5cig0N2GoF2P4AcjGdFSlIQ1HIm2mejmKP3XdUFHDlPLk6QxuMfBj8kqxNGf_G5K9B8X6nfe2slRe5J-xXeIxFi05E5VrlVZ7Ofg-55cX18cVpt8-LAXyfIO6cFIap1LXS0LsHT6W9rmU98lTLEFj1KasGQ7s4gArsVBSfutcbVQFmWDyMjifaRJo-QlLDaqlr8GOz0N3KjGfQpUT-yfD65VtfSGCzWNaQXvSfdB23mIhuRVdmWX80p_fgG_9uSm)
 
 
 ```mermaid
 gantt
-  title Project Schedule
+  title Strategy Art residence
   dateFormat YYYY
-  section Phase 1
-    Manifest: 2022-01-01, 30d
-    Home Restoration: 2022-02-01, 20d
-  section Phase 2
-    Communication :active,  des2,2022-06-01, 1yr
-    Administration Liaison and Funding: 2022-04-01, 15d
+  section Manifest
+    Define the core principles and goals of the Art Residence:2022-01-01, 14d
+     Core values: 2022-01-01, 30d
+    Mission statement: 2022-01-01, 6w
+    Vision for the art residence: 2022-03-01, 30d
+  section Home Restoration
+    Arrange old premises :  2022-06-01, 8w
+    Infrastructure development spot: 2022-04-01, 15d
+  section Communication
+  Web site:  2024-02-01, 12w
+  Blogging: 2024-02-01, 24w
+  Events and festivals: 2022-10-01, 2d
+   Guests: 2022-06-01, 5d
+   Presentation: 2024-06-07, 1w
+   section Communication
 ```
