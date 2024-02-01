@@ -1,4 +1,4 @@
-```mermaid
+
 ---
 title: Simple sample
 ---
@@ -10,4 +10,4 @@ stateDiagram-v2
     Moving --> Still
     Moving --> Crash
     Crash --> [*]
-```
+
