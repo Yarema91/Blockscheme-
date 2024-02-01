@@ -42,6 +42,51 @@ gantt
     PubOrg :2028, 1yr
       Promote_Art_Residence :2028, 6mo
       Establish_Partnerships :2028, 6mo
+
+
+
+graph TB
+  subgraph Manifest
+    Define_Core_Principles --> Core_Values
+    Core_Values --> Mission_Statement
+    Mission_Statement --> Vision
+  end
+
+  subgraph Home_Restoration
+    Arrange_Old_Premises --> Assess_Condition
+    Arrange_Old_Premises --> Plan_Restoration
+    Infrastructure_Development --> Landscape_Design
+    Infrastructure_Development --> Utilities_Enhancement
+  end
+
+  subgraph Communication
+    Website --> Develop_Website
+    Website --> Update_Content
+    Blogging --> Social_Media_Presence
+    Blogging --> YouTube_Content
+    Blogging --> Advertising
+    Events_and_Festivals --> Plan_Organize_Events
+    Events_and_Festivals --> Participate_Festivals
+    Guests --> Invite_Artists
+    Guests --> Collaborate_Bloggers
+    Presentation --> Showcase_Artists_Work
+    Presentation --> Organize_Exhibitions
+  end
+
+  subgraph Admin_Liaison_Funding
+    Building_Team --> Assemble_Skilled_Team
+    Building_Team --> Coordinate_Tasks
+    PubOrg --> Promote_Art_Residence
+    PubOrg --> Establish_Partnerships
+    Grants_and_Tender --> Research_Apply_Grants
+    Grants_and_Tender --> Participate_Tenders
+    Shop --> Set_Up_Shop
+    Shop --> Manage_Inventory
+    Donation --> Implement_Donation_System
+    Donation --> Seek_Financial_Support
+    Donation --> Fundraising_Crowdfunding
+  end
+
     
 
 ```
